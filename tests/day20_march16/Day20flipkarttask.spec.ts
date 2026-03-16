@@ -22,5 +22,5 @@ test("flipkart_senario E2E", async ({ page }) => {
   await flipkart.addToCart(page2);
   await page2.close();
   await flipkart.CartBtn.click();
-  await page.screenshot({ path: "./Screenshot/flipkartE2E.png" });
+  await page.screenshot({ path: "day20-March16_flipkartE2E.png" });
 });
